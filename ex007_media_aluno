@@ -1,0 +1,4 @@
+p1 = float(input('Primeira nota do aluno:'))
+p2 = float(input('Segunda nota do aluno:'))
+media = (p1 + p2) / 2
+print('A média do aluno é {}'.format(media))
