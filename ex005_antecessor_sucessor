@@ -1,0 +1,4 @@
+n1 = int(input('Insira um numero inteiro:'))
+antecessor = n1 - 1
+sucessor = n1 + 1
+print('Você inseriu o númeuro {}\nSeu antecessor é {}\nSeu sucessor é {}'.format(n1, antecessor, sucessor))
