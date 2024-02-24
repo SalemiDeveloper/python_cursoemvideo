@@ -1,0 +1,3 @@
+dinheiro_real = float(input('Quanto dinheiro você tem na carteira? R$'))
+dolar = dinheiro_real / 3.27
+print('Você tem {} em reais que equivalem a {:.2f} dólares'.format(dinheiro_real, dolar))
