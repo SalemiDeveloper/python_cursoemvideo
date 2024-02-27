@@ -1,0 +1,11 @@
+from random import choice
+primeiro_aluno = str(input('Nome do primeiro aluno: '))
+segundo_aluno = str(input('Nome do segundo aluno: '))
+terceiro_aluno = str(input('Nome do terceiro aluno: '))
+quarto_aluno = str(input('Nome do quarto aluno: '))
+
+lista = [primeiro_aluno, segundo_aluno, terceiro_aluno, quarto_aluno]
+
+escolhido = choice(lista)
+
+print('O aluno escolhido foi {}.'.format(escolhido))
