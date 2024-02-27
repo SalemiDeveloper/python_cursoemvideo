@@ -1,0 +1,11 @@
+from random import shuffle
+primeiro_aluno = str(input('Digite o primeiro nome: '))
+segundo_aluno = str(input('Digite o segundo nome: '))
+terceiro_aluno = str(input('Digite o terceiro nome: '))
+quarto_aluno = str(input('Digite o quarto nome: '))
+
+lista = [primeiro_aluno, segundo_aluno, terceiro_aluno, quarto_aluno]
+
+shuffle(lista)
+print('A ordem de apresentação será')
+print(lista)
