@@ -1,0 +1,16 @@
+frase = 'Curso em Vídeo Python'
+print(frase[3:13]); """do 3 ao 12"""
+print(frase[:14]); """do início ao 13"""
+
+print(frase[1:15:2]); """do 1 ao 14 pulando de 2 em 2"""
+print(frase[::2]); """do início ao fim pulando de 2 em 2"""
+
+print(frase.count('o')); """diz quantos O minúsculos tem"""
+print(frase.upper().count('O')); """deixando tudo em maiusculo e dizendo quantos O maíusculos tem"""
+
+print(len(frase)); """retornando o tamanho da string"""
+print(frase.replace('Python', 'Android')); """substitui mas NÃO SALVA na string"""
+
+print('Curso' in frase); """retorna True se existir"""
+
+print(frase.find('Curso')); """Me diz onde está ou onde começa"""
